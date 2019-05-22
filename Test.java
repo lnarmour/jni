@@ -5,7 +5,7 @@ public class Test {
 	public native int multiply(int a, int b);
 
 	public static void main(String[] args) {
-		System.loadLibrary("Test");
+		System.load("/home/narmour/csu/jni/multiply.so");
 
 		Scanner sc = new Scanner(System.in);
 		int i = sc.nextInt();
